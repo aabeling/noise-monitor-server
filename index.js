@@ -15,8 +15,9 @@ app.get('/', function (req, res) {
 
 app.post('/', function(request,response) {
 
+  var id = request.body.id;
   var decibelValue = request.body.decibelValue;
-  console.log(Date.now() + "," + decibelValue);
+  console.log(Date.now() + "," + id + "," + decibelValue);
 
   response.json({msg: 'ok'})
 });
