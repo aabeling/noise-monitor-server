@@ -15,8 +15,6 @@ app.get('/', function (req, res) {
 
 app.post('/', function(request,response) {
 
-  console.log("body: ", request.body);
-
   var decibelValue = request.body.decibelValue;
   console.log(Date.now() + "," + decibelValue);
 

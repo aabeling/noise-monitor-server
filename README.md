@@ -4,4 +4,8 @@ Test with
 
 # installation
 
+     $ npm install
 
+# start
+
+     $ node index.js
