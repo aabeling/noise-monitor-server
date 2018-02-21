@@ -23,5 +23,5 @@ app.post('/', function(request,response) {
 });
 
 app.listen(port, function () {
-  console.log('noise-monitoring-server listening on port ' + port)
+  //console.log('noise-monitoring-server listening on port ' + port)
 })
